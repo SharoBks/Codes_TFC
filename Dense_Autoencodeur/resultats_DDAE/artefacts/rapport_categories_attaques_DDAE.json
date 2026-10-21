@@ -1,0 +1,22 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "analyse": "descriptive_post_evaluation",
+    "nombre_attaques": 3364,
+    "nombre_categories": 9,
+    "attaques_detectees": 3206,
+    "attaques_manquees": 158,
+    "rappel_global_attaques_pct": 95.30321046373365,
+    "categorie_meilleur_taux": "Backdoors",
+    "meilleur_taux_pct": 100.0,
+    "categorie_plus_faible_taux": "Worms",
+    "plus_faible_taux_pct": 66.66666666666666,
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "categories_utilisees_pour_entrainement": false,
+    "optimisation_sur_test": false
+}

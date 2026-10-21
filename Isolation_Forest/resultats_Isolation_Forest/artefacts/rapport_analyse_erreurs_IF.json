@@ -1,0 +1,39 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "ensemble": "test_independant_IF",
+    "partitionnement": "autonome_par_groupes",
+    "observations": 104871,
+    "normaux": 101507,
+    "attaques": 3364,
+    "TN": 97222,
+    "FP": 4285,
+    "FN": 471,
+    "TP": 2893,
+    "nombre_erreurs": 4756,
+    "FPR": 0.04221383746933709,
+    "FNR": 0.14001189060642094,
+    "taux_global_erreur": 0.04535095498278838,
+    "seuil": 0.5262464252920358,
+    "calibration": "P95_validation_normale",
+    "operateur_decision": ">",
+    "score": "-score_samples",
+    "modele_reentraine": false,
+    "seuil_recalibre": false,
+    "test_utilise_pour_optimisation": false,
+    "figures": {
+        "effectifs": {
+            "png": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\effectifs_erreurs_Isolation_Forest.png",
+            "pdf": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\effectifs_erreurs_Isolation_Forest.pdf",
+            "svg": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\effectifs_erreurs_Isolation_Forest.svg"
+        },
+        "scores": {
+            "png": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\distribution_scores_erreurs_IF.png",
+            "pdf": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\distribution_scores_erreurs_IF.pdf",
+            "svg": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\figures\\distribution_scores_erreurs_IF.svg"
+        }
+    },
+    "comparabilite_DDAE_verifiee": false,
+    "date_utc": "2026-10-19T17:37:34.946844+00:00"
+}

@@ -1,0 +1,16 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "dataset_path": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\UNSW-NB15_1.csv",
+    "sha256": "7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511",
+    "size_mb": 161.1516170501709,
+    "nombre_observations": 700001,
+    "nombre_colonnes": 49,
+    "observations_attendues": 700001,
+    "colonnes_attendues": 49,
+    "header": null,
+    "ordre_original_conserve": true,
+    "donnees_modifiees": false,
+    "pretraitement_effectue": false,
+    "separation_effectuee": false,
+    "identite_avec_dataset_DDAE_verifiee": false
+}

@@ -1,0 +1,33 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "ensemble": "test_independant_IF",
+    "partitionnement": "autonome_par_groupes",
+    "observations": 104871,
+    "nombre_normaux": 101507,
+    "nombre_attaques": 3364,
+    "score": "-score_samples",
+    "orientation": "higher_is_more_anomalous",
+    "seuil": 0.5262464252920358,
+    "calibration": "P95_validation_normale",
+    "operateur_decision": ">",
+    "histogrammes_normalises_par_classe": true,
+    "zoom_limites": [
+        0.4258668528721791,
+        0.630284530717641
+    ],
+    "TN": 97222,
+    "FP": 4285,
+    "FN": 471,
+    "TP": 2893,
+    "FPR": 0.04221383746933709,
+    "TPR": 0.8599881093935791,
+    "police": "Consolas",
+    "palette": "viridis",
+    "modele_reentraine": false,
+    "seuil_recalibre": false,
+    "test_utilise_pour_optimisation": false,
+    "comparabilite_DDAE_verifiee": false,
+    "date_utc": "2026-10-19T17:33:54.956391+00:00"
+}

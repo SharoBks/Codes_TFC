@@ -1,0 +1,19 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "origine_partitions": "DDAE",
+    "dossier_source": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\split_commun",
+    "taille_train": 490140,
+    "taille_validation": 104990,
+    "taille_test": 104871,
+    "train_normal": 474263,
+    "validation_normale": 102016,
+    "groupes_disjoints": true,
+    "signatures_compatibles": true,
+    "signatures_disjointes": true,
+    "sha256_dataset_actuel": "7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511",
+    "nouveau_partitionnement": false,
+    "test_utilise_pour_entrainement": false,
+    "pretraitement_effectue": false
+}

@@ -1,0 +1,21 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "architecture": [
+        70,
+        32,
+        16,
+        32,
+        70
+    ],
+    "activation_encodeur": "relu",
+    "activation_latente": "relu",
+    "activation_decodeur": "relu",
+    "activation_sortie": "linear",
+    "optimiseur": "Adam",
+    "learning_rate": 0.001,
+    "loss": "MSE",
+    "nombre_parametres": 5654,
+    "entraine": false
+}

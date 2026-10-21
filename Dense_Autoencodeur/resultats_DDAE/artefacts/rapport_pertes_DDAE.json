@@ -1,0 +1,15 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "fonction_perte": "MSE",
+    "nombre_epoques": 50,
+    "meilleure_epoque": 45,
+    "perte_entrainement_initiale": 0.14054259657859802,
+    "perte_entrainement_finale": 0.013812362216413021,
+    "perte_validation_initiale": 0.05725330859422684,
+    "meilleure_perte_validation": 0.011149748228490353,
+    "perte_validation_finale": 0.011475600302219391,
+    "reduction_entrainement_pct": 90.1721168153539,
+    "reduction_validation_pct": 80.52558270909319,
+    "test_utilise": false
+}

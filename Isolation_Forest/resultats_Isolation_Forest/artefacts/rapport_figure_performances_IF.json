@@ -1,0 +1,26 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "ensemble": "test_independant_IF",
+    "source_metriques": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\rapport_metriques_globales_IF.json",
+    "metriques_affichees": {
+        "Accuracy": 0.9546490450172116,
+        "Precision": 0.40303705767623293,
+        "Recall": 0.8599881093935791,
+        "F1-score": 0.5488522102067919,
+        "Specificity": 0.957786162530663,
+        "Balanced Accuracy": 0.908887135962121
+    },
+    "echelle": "pourcentage",
+    "borne_inferieure_performance": 0,
+    "borne_superieure_performance": 100,
+    "marge_graphique_superieure": 105,
+    "police": "Consolas",
+    "palette": "viridis",
+    "resolution_png_dpi": 300,
+    "seuil_recalibre": false,
+    "modele_reentraine": false,
+    "comparabilite_DDAE_verifiee": false,
+    "date_utc": "2026-10-19T17:25:17.536440+00:00"
+}

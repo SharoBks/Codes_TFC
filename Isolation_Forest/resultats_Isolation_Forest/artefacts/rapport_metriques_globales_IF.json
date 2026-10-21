@@ -1,0 +1,36 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "partitionnement": "autonome_par_groupes",
+    "ensemble": "test_independant_IF",
+    "nombre_observations": 104871,
+    "nombre_normaux": 101507,
+    "nombre_attaques": 3364,
+    "seuil": 0.5262464252920358,
+    "calibration": "P95_validation_normale",
+    "score": "-score_samples",
+    "operateur_decision": ">",
+    "matrice_confusion": {
+        "TN": 97222,
+        "FP": 4285,
+        "FN": 471,
+        "TP": 2893
+    },
+    "metriques": {
+        "Accuracy": 0.9546490450172116,
+        "Precision": 0.40303705767623293,
+        "Recall": 0.8599881093935791,
+        "F1-score": 0.5488522102067919,
+        "Specificity": 0.957786162530663,
+        "Balanced Accuracy": 0.908887135962121,
+        "ROC-AUC": 0.9811465281817752,
+        "Average Precision": 0.545500875506721,
+        "FPR": 0.04221383746933709,
+        "FNR": 0.14001189060642094
+    },
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "comparabilite_DDAE_verifiee": false,
+    "date_utc": "2026-10-19T17:22:16.805729+00:00"
+}

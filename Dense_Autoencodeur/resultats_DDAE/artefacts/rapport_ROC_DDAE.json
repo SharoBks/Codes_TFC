@@ -1,0 +1,19 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "score": "MSE_individuel",
+    "orientation": "score_eleve_plus_anormal",
+    "roc_auc": 0.9851241171291795,
+    "roc_auc_trapezoidal": 0.9851241171291796,
+    "nombre_points_ROC": 95514,
+    "seuil_operationnel": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "fpr_seuil_fixe": 0.049001546691361184,
+    "tpr_seuil_fixe": 0.9530321046373365,
+    "seuil_recalibre": false,
+    "modele_modifie": false,
+    "pretraitement_modifie": false,
+    "optimisation_sur_test": false
+}

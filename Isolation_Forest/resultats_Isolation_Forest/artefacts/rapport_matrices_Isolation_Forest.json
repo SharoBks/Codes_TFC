@@ -1,0 +1,20 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "partitionnement": "autonome_par_groupes",
+    "preprocesseur": "autonome_fit_train_normal",
+    "nombre_train_normal": 474263,
+    "nombre_validation_normal": 102016,
+    "nombre_test": 104871,
+    "nombre_caracteristiques": 70,
+    "format_matrices": "CSR",
+    "dtype": "float32",
+    "valeurs_finies": true,
+    "groupes_test_disjoints": true,
+    "ajustement_train_normal": true,
+    "ajustement_validation": false,
+    "ajustement_test": false,
+    "test_utilise_pour_optimisation": false,
+    "identite_avec_test_DDAE_verifiee": false
+}

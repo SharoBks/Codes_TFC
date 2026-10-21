@@ -1,0 +1,21 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "ensemble": "test_independant",
+    "nombre_observations": 104871,
+    "nombre_caracteristiques": 70,
+    "nombre_normaux": 101507,
+    "nombre_attaques": 3364,
+    "score": "MSE_individuel",
+    "orientation": "score_eleve_plus_anormal",
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "operateur_decision": ">",
+    "modele_sha256": "3e08f999f9151652d79beabd74ff1f3dd72c92514f65afca56211962a8dae39a",
+    "duree_scoring_secondes": 1.282154000000446,
+    "aucun_fit_sur_test": true,
+    "aucun_recalibrage_sur_test": true,
+    "aucune_selection_hyperparametres_sur_test": true
+}

@@ -1,0 +1,19 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "population": "validation_normale",
+    "score": "MSE_individuel",
+    "orientation": "score_eleve_plus_anormal",
+    "nombre_observations": 102016,
+    "nombre_caracteristiques": 70,
+    "score_minimum": 8.196763658958229e-05,
+    "score_moyen": 0.011149746101321899,
+    "score_median": 0.0048016040428432525,
+    "score_ecart_type": 0.0321223237347531,
+    "score_maximum": 2.1415870836063267,
+    "scoring_duration_seconds": 1.6217158999988897,
+    "modele_utilise": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\modeles\\DDAE_meilleur_modele.keras",
+    "test_utilise": false,
+    "seuil_calibre": false
+}

@@ -1,0 +1,16 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "analyse": "descriptive",
+    "variable_cible": "label",
+    "variable_categorie": "attack_cat",
+    "nombre_observations": 700001,
+    "nombre_attaques": 22215,
+    "nombre_categories_attaques": 9,
+    "normaux_avec_categorie_attaque": 0,
+    "attaques_sans_categorie": 0,
+    "categories_utilisees_pour_entrainement": false,
+    "donnees_modifiees": false,
+    "pretraitement_effectue": false,
+    "modele_entraine": false
+}

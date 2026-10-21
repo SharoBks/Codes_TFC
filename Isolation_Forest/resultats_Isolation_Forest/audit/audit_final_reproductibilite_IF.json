@@ -1,0 +1,207 @@
+{
+    "modele": "Isolation Forest",
+    "dataset": "UNSW-NB15",
+    "protocole": "one-class",
+    "ensemble": "test_autonome_IF",
+    "statut_global": "PARTIEL",
+    "controles_reussis": 31,
+    "controles_echoues": 0,
+    "controles_non_verifies": 1,
+    "dataset_sha256": "7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511",
+    "modele_sha256": "8ab3b9218ab57d5e90ac2bfb3fae34c37843dec4b4786ad502961547394108b8",
+    "calibration": {
+        "population": "validation_normale",
+        "percentile": 95,
+        "seuil": 0.5262464252920358,
+        "regle": "score > seuil"
+    },
+    "partitions": {
+        "identifiants_disjoints": true,
+        "groupes_disjoints": true,
+        "signatures_disjointes": true
+    },
+    "matrice_confusion": {
+        "TN": 97222,
+        "FP": 4285,
+        "FN": 471,
+        "TP": 2893
+    },
+    "metriques": {
+        "Accuracy": 0.9546490450172116,
+        "Precision": 0.40303705767623293,
+        "Recall": 0.8599881093935791,
+        "F1-score": 0.5488522102067919,
+        "Specificity": 0.957786162530663,
+        "Balanced Accuracy": 0.908887135962121,
+        "ROC-AUC": 0.9811465281817752,
+        "Average Precision": 0.545500875506721,
+        "FPR": 0.04221383746933709,
+        "FNR": 0.14001189060642094
+    },
+    "test_commun_DDAE_verifie": false,
+    "aucun_entrainement_realise": true,
+    "aucun_recalibrage_realise": true,
+    "controles": [
+        {
+            "Controle": "Fichier : Modele",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\modeles\\Isolation_Forest_one_class.joblib"
+        },
+        {
+            "Controle": "Fichier : Preprocesseur",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\preprocesseur_Isolation_Forest.joblib"
+        },
+        {
+            "Controle": "Fichier : Scores de validation",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\scores\\scores_validation_normale_IF.npy"
+        },
+        {
+            "Controle": "Fichier : Scores du test",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\scores\\scores_test_Isolation_Forest.npy"
+        },
+        {
+            "Controle": "Fichier : Seuil P95",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\seuil_Isolation_Forest_95e_percentile.json"
+        },
+        {
+            "Controle": "Fichier : Identifiants test",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\ids_test.npy"
+        },
+        {
+            "Controle": "Fichier : Etiquettes test",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\y_test.npy"
+        },
+        {
+            "Controle": "Fichier : Matrice entrainement",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\X_train_normal.npz"
+        },
+        {
+            "Controle": "Fichier : Matrice validation",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\X_validation_normal.npz"
+        },
+        {
+            "Controle": "Fichier : Matrice test",
+            "Statut": "OK",
+            "Detail": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\X_test_independant.npz"
+        },
+        {
+            "Controle": "Empreinte du dataset",
+            "Statut": "OK",
+            "Detail": "SHA-256 identique a la reference du notebook."
+        },
+        {
+            "Controle": "Unicite des IDs du test",
+            "Statut": "OK",
+            "Detail": "Identifiants uniques."
+        },
+        {
+            "Controle": "Partitions disjointes par identifiants",
+            "Statut": "OK",
+            "Detail": "Aucun identifiant commun entre les partitions."
+        },
+        {
+            "Controle": "Groupes disjoints",
+            "Statut": "OK",
+            "Detail": "Aucun groupe partage entre partitions."
+        },
+        {
+            "Controle": "Signatures des observations disjointes",
+            "Statut": "OK",
+            "Detail": "Aucune signature commune entre partitions."
+        },
+        {
+            "Controle": "Population entrainement normale",
+            "Statut": "OK",
+            "Detail": "Toutes les observations d'entrainement selectionnees sont normales."
+        },
+        {
+            "Controle": "Population calibration normale",
+            "Statut": "OK",
+            "Detail": "Toutes les observations de calibration selectionnees sont normales."
+        },
+        {
+            "Controle": "Matrice train normal",
+            "Statut": "OK",
+            "Detail": "Dimensions : (474263, 70)"
+        },
+        {
+            "Controle": "Matrice validation normale",
+            "Statut": "OK",
+            "Detail": "Dimensions : (102016, 70)"
+        },
+        {
+            "Controle": "Matrice test",
+            "Statut": "OK",
+            "Detail": "Dimensions : (104871, 70)"
+        },
+        {
+            "Controle": "Preprocesseur ajuste",
+            "Statut": "OK",
+            "Detail": "Preprocesseur ajuste et sauvegarde."
+        },
+        {
+            "Controle": "Type du modele",
+            "Statut": "OK",
+            "Detail": "IsolationForest confirme."
+        },
+        {
+            "Controle": "Modele ajuste",
+            "Statut": "OK",
+            "Detail": "Modele entraine."
+        },
+        {
+            "Controle": "Dimensions modele / train",
+            "Statut": "OK",
+            "Detail": "Nombre de variables coherent."
+        },
+        {
+            "Controle": "Dimensions modele / test",
+            "Statut": "OK",
+            "Detail": "Nombre de variables coherent."
+        },
+        {
+            "Controle": "Scores du test finis",
+            "Statut": "OK",
+            "Detail": "Scores de test numeriquement valides."
+        },
+        {
+            "Controle": "Reproductibilite des scores du test",
+            "Statut": "OK",
+            "Detail": "Scores reproduits avec le modele sauvegarde."
+        },
+        {
+            "Controle": "Reproductibilite des scores de validation",
+            "Statut": "OK",
+            "Detail": "Scores de validation reproduits."
+        },
+        {
+            "Controle": "Calibration P95",
+            "Statut": "OK",
+            "Detail": "Seuil egal au P95 de la validation normale."
+        },
+        {
+            "Controle": "Recalcul des metriques",
+            "Statut": "OK",
+            "Detail": "Matrice et dix metriques recalculees."
+        },
+        {
+            "Controle": "Concordance avec cellule 19",
+            "Statut": "OK",
+            "Detail": "Metriques et matrice identiques."
+        },
+        {
+            "Controle": "Comparabilite stricte avec DDAE",
+            "Statut": "NON_VERIFIE",
+            "Detail": "Aucun rapprochement explicite avec les identifiants du test DDAE dans cet audit."
+        }
+    ],
+    "date_utc": "2026-10-19T17:47:22.652233+00:00"
+}

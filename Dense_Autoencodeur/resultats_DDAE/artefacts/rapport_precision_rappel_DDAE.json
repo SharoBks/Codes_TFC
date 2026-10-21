@@ -1,0 +1,20 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "score": "MSE_individuel",
+    "orientation": "score_eleve_plus_anormal",
+    "average_precision": 0.574567258083349,
+    "aire_PR_trapezoidale": 0.5734838362367993,
+    "nombre_points_PR": 95514,
+    "proportion_attaques": 0.032077504743923485,
+    "seuil_operationnel": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "precision_au_seuil_fixe": 0.39193154034229827,
+    "rappel_au_seuil_fixe": 0.9530321046373365,
+    "seuil_recalibre": false,
+    "modele_modifie": false,
+    "pretraitement_modifie": false,
+    "optimisation_sur_test": false
+}

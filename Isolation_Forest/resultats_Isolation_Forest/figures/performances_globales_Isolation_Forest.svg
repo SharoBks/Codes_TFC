@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="782.116875pt" height="465.401406pt" viewBox="0 0 782.116875 465.401406" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-19T18:25:17.122536</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 465.401406 
+L 782.116875 465.401406 
+L 782.116875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 64.079375 373.08 
+L 774.916875 373.08 
+L 774.916875 35.14 
+L 64.079375 35.14 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="132.546123" y="389.98" transform="rotate(-0 132.546123 389.98)">Exactitude</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="247.326924" y="389.98" transform="rotate(-0 247.326924 389.98)">Précision</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="362.107725" y="389.98" transform="rotate(-0 362.107725 389.98)">Rappel</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="476.888525" y="389.98" transform="rotate(-0 476.888525 389.98)">Score F1</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="591.669326" y="390.037812" transform="rotate(-0 591.669326 390.037812)">Spécificité</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Consolas'; fill: #262626" transform="translate(678.95794 389.98)">Exactitude</text>
+      <text style="font-size: 10px; font-family: 'Consolas'; fill: #262626" transform="translate(678.95794 400.330937)">équilibrée</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 12px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="419.498125" y="422.681875" transform="rotate(-0 419.498125 422.681875)">Métriques d'évaluation</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1">
+      <path d="M 64.079375 373.08 
+L 774.916875 373.08 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="376.875" transform="rotate(-0 54.579375 376.875)">0%</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2">
+      <path d="M 64.079375 308.710476 
+L 774.916875 308.710476 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="312.505476" transform="rotate(-0 54.579375 312.505476)">20%</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3">
+      <path d="M 64.079375 244.340952 
+L 774.916875 244.340952 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="248.135952" transform="rotate(-0 54.579375 248.135952)">40%</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4">
+      <path d="M 64.079375 179.971429 
+L 774.916875 179.971429 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="183.766429" transform="rotate(-0 54.579375 183.766429)">60%</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5">
+      <path d="M 64.079375 115.601905 
+L 774.916875 115.601905 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="119.396905" transform="rotate(-0 54.579375 119.396905)">80%</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6">
+      <path d="M 64.079375 51.232381 
+L 774.916875 51.232381 
+" clip-path="url(#p67208a11af)" style="fill: none; stroke-dasharray: 2.775,1.2; stroke-dashoffset: 0; stroke: #cccccc; stroke-opacity: 0.35; stroke-width: 0.75"/>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'Consolas'; text-anchor: end; fill: #262626" x="54.579375" y="55.027381" transform="rotate(-0 54.579375 55.027381)">100%</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 12px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="15.924375" y="204.11" transform="rotate(-90 15.924375 204.11)">Performance (%)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 64.079375 373.08 
+L 64.079375 35.14 
+" style="fill: none; stroke: #262626; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 64.079375 373.08 
+L 774.916875 373.08 
+" style="fill: none; stroke: #262626; stroke-width: 1.25; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 96.39017 373.08 
+L 168.702075 373.08 
+L 168.702075 65.828478 
+L 96.39017 65.828478 
+z
+" clip-path="url(#p67208a11af)" style="fill: #463480; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 211.170971 373.08 
+L 283.482876 373.08 
+L 283.482876 243.363483 
+L 211.170971 243.363483 
+z
+" clip-path="url(#p67208a11af)" style="fill: #355f8d; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 325.951772 373.08 
+L 398.263677 373.08 
+L 398.263677 96.294875 
+L 325.951772 96.294875 
+z
+" clip-path="url(#p67208a11af)" style="fill: #25848e; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 440.732573 373.08 
+L 513.044478 373.08 
+L 513.044478 196.433223 
+L 440.732573 196.433223 
+z
+" clip-path="url(#p67208a11af)" style="fill: #22a884; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 555.513374 373.08 
+L 627.825279 373.08 
+L 627.825279 64.818804 
+L 555.513374 64.818804 
+z
+" clip-path="url(#p67208a11af)" style="fill: #5ec962; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 670.294175 373.08 
+L 742.60608 373.08 
+L 742.60608 80.556839 
+L 670.294175 80.556839 
+z
+" clip-path="url(#p67208a11af)" style="fill: #bddf26; stroke: #000000; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="132.546123" y="59.705396" transform="rotate(-0 132.546123 59.705396)">95.46 %</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="247.326924" y="237.240401" transform="rotate(-0 247.326924 237.240401)">40.30 %</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="362.107725" y="90.171793" transform="rotate(-0 362.107725 90.171793)">86.00 %</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="476.888525" y="190.310141" transform="rotate(-0 476.888525 190.310141)">54.89 %</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="591.669326" y="58.695722" transform="rotate(-0 591.669326 58.695722)">95.78 %</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="706.450127" y="74.433758" transform="rotate(-0 706.450127 74.433758)">90.89 %</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="419.498125" y="17.14" transform="rotate(-0 419.498125 17.14)">Performances globales du modèle Isolation Forest</text>
+   </g>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 9px; font-family: 'Consolas'; text-anchor: middle; fill: #262626" x="390.796875" y="456.4" transform="rotate(-0 390.796875 456.4)">Test indépendant d'Isolation Forest ; seuil calibré au 95e percentile du trafic normal de validation.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p67208a11af">
+   <rect x="64.079375" y="35.14" width="710.8375" height="337.94"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,18 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "analyse": "exploratoire_post_evaluation",
+    "dimension_latente": 16,
+    "dimension_ACP": 2,
+    "ACP_fit": "train_normal_uniquement",
+    "test_ACP": "transform_uniquement",
+    "variance_PC1_pct": 46.5861574076228,
+    "variance_PC2_pct": 11.713992245628194,
+    "variance_cumulee_pct": 58.30014965325099,
+    "observations_test": 104871,
+    "points_normaux_affiches": 10000,
+    "points_attaques_affiches": 3364,
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "optimisation_sur_test": false
+}

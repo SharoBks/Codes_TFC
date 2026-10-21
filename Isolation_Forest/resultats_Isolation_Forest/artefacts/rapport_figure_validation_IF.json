@@ -1,0 +1,25 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "ensemble": "validation_normale",
+    "nombre_observations": 102016,
+    "score": "-score_samples",
+    "orientation": "higher_is_more_anomalous",
+    "percentile_calibration": 95,
+    "seuil": 0.5262464252920358,
+    "operateur_decision": ">",
+    "nombre_depassements": 5101,
+    "taux_depassement_pct": 5.000196047678795,
+    "zoom_percentiles": [
+        85,
+        99
+    ],
+    "zoom_borne_inferieure": 0.4414397042845483,
+    "zoom_borne_superieure": 0.5963369788017362,
+    "police": "Consolas",
+    "palette": "scientifique",
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "test_utilise": false
+}

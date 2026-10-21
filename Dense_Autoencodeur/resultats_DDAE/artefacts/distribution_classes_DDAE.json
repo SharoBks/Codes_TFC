@@ -1,0 +1,12 @@
+{
+    "dataset": "UNSW-NB15",
+    "total_observations": 700001,
+    "normal_observations": 677786,
+    "attack_observations": 22215,
+    "normal_percentage": 96.82643310509556,
+    "attack_percentage": 3.173566894904436,
+    "label_normal": 0,
+    "label_attack": 1,
+    "analysis_stage": "audit_before_split",
+    "data_modified": false
+}

@@ -1,0 +1,21 @@
+{
+    "dataset": "UNSW-NB15",
+    "model": "Deep Dense Autoencoder",
+    "protocol": "one-class",
+    "input_features": 70,
+    "batch_size": 256,
+    "maximum_epochs": 50,
+    "learning_rate": 0.001,
+    "optimizer": "Adam",
+    "loss": "MSE",
+    "training_observations": 474263,
+    "validation_observations": 102016,
+    "training_steps": 1853,
+    "validation_steps": 399,
+    "training_labels": "normal_only",
+    "validation_labels": "normal_only",
+    "test_used_for_training": false,
+    "test_used_for_validation": false,
+    "data_format": "CSR_float32",
+    "batch_conversion": "dense_float32"
+}

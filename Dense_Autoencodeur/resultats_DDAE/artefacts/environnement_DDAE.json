@@ -1,0 +1,14 @@
+{
+    "model": "Deep Dense Autoencoder",
+    "dataset": "UNSW-NB15",
+    "random_state": 42,
+    "calibration_percentile": 95,
+    "python_version": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "numpy_version": "1.26.4",
+    "pandas_version": "2.3.3",
+    "sklearn_version": "1.7.2",
+    "tensorflow_version": "2.15.0",
+    "matplotlib_version": "3.10.9",
+    "figure_font": "Consolas"
+}

@@ -1,0 +1,22 @@
+Model: "Deep_Dense_Autoencoder"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ entree_trafic_reseau (Inpu  [(None, 70)]              0         
+ tLayer)                                                         
+                                                                 
+ encodeur_dense_32 (Dense)   (None, 32)                2272      
+                                                                 
+ representation_latente_16   (None, 16)                528       
+ (Dense)                                                         
+                                                                 
+ decodeur_dense_32 (Dense)   (None, 32)                544       
+                                                                 
+ reconstruction_trafic (Den  (None, 70)                2310      
+ se)                                                             
+                                                                 
+=================================================================
+Total params: 5654 (22.09 KB)
+Trainable params: 5654 (22.09 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

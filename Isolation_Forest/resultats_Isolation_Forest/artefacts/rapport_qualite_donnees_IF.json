@@ -1,0 +1,20 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "nombre_observations": 700001,
+    "nombre_colonnes": 49,
+    "caracteristiques_candidates": 47,
+    "caracteristiques_brutes_selectionnees": 43,
+    "caracteristiques_numeriques": 40,
+    "caracteristiques_categorielles": 3,
+    "colonnes_avec_valeurs_manquantes": 1,
+    "colonnes_avec_valeurs_infinies": 0,
+    "colonnes_avec_echecs_numeriques": 2,
+    "variables_constantes": 0,
+    "variables_presque_constantes": 1,
+    "donnees_supprimees": false,
+    "donnees_modifiees": false,
+    "nettoyage_effectue": false,
+    "encodage_effectue": false,
+    "normalisation_effectuee": false
+}

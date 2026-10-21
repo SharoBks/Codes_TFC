@@ -1,0 +1,39 @@
+{
+    "modele": "Deep Dense Autoencoder",
+    "identifiant": "DDAE",
+    "dataset": "UNSW-NB15",
+    "protocole": "one-class",
+    "ensemble_evaluation": "test_independant",
+    "n_train_normal": 474263,
+    "n_validation_normal": 102016,
+    "n_test": 104871,
+    "n_test_normal": 101507,
+    "n_test_attack": 3364,
+    "dimension_entree": 70,
+    "calibration": {
+        "population": "validation_normale",
+        "percentile": 95,
+        "seuil": 0.035257672634652557,
+        "operateur": ">"
+    },
+    "matrice_confusion": {
+        "TN": 96533,
+        "FP": 4974,
+        "FN": 158,
+        "TP": 3206
+    },
+    "metriques": {
+        "Accuracy": 0.9510636877687826,
+        "Precision": 0.39193154034229827,
+        "Recall": 0.9530321046373365,
+        "F1-score": 0.5554400554400555,
+        "Specificity": 0.9509984533086389,
+        "Balanced Accuracy": 0.9520152789729877,
+        "ROC-AUC": 0.9851241171291795,
+        "Average Precision": 0.574567258083349,
+        "FPR": 0.049001546691361184,
+        "FNR": 0.0469678953626635
+    },
+    "audit_reussi": true,
+    "date_export_utc": "2026-10-19T14:23:47.095922+00:00"
+}

@@ -1,0 +1,30 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "architecture": [
+        70,
+        32,
+        16,
+        32,
+        70
+    ],
+    "optimiseur": "Adam",
+    "learning_rate": 0.001,
+    "loss": "MSE",
+    "batch_size": 256,
+    "epochs_max": 50,
+    "epochs_executed": 50,
+    "best_epoch": 45,
+    "best_training_loss": 0.014281312003731728,
+    "best_validation_loss": 0.011149748228490353,
+    "early_stopping_patience": 8,
+    "early_stopping_min_delta": 0.0001,
+    "training_duration_seconds": 379.8439004000011,
+    "train_normal_observations": 474263,
+    "validation_normal_observations": 102016,
+    "test_used_for_training": false,
+    "test_used_for_model_selection": false,
+    "test_used_for_threshold": false,
+    "checkpoint_path": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\modeles\\DDAE_meilleur_modele.keras"
+}

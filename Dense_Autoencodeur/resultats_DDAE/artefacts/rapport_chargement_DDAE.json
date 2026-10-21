@@ -1,0 +1,12 @@
+{
+    "dataset": "UNSW-NB15",
+    "source_file": "UNSW-NB15_1.csv",
+    "number_of_rows": 700001,
+    "number_of_columns": 49,
+    "expected_columns": 49,
+    "missing_values": 677786,
+    "file_size_bytes": 168979718,
+    "column_names_assigned": false,
+    "preprocessing_applied": false,
+    "test_data_used_for_training": false
+}

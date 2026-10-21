@@ -1,0 +1,33 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "ensemble": "test_independant",
+    "observations": 104871,
+    "normaux": 101507,
+    "attaques": 3364,
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "TN": 96533,
+    "FP": 4974,
+    "FN": 158,
+    "TP": 3206,
+    "FPR": 0.049001546691361184,
+    "FNR": 0.0469678953626635,
+    "TNR": 0.9509984533086389,
+    "TPR": 0.9530321046373365,
+    "matrice": [
+        [
+            96533,
+            4974
+        ],
+        [
+            158,
+            3206
+        ]
+    ],
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "test_utilise_pour_optimisation": false
+}

@@ -1,0 +1,41 @@
+===========================================================================
+RAPPORT FINAL D'AUDIT — DEEP DENSE AUTOENCODER
+===========================================================================
+
+Observations train : 490140
+Observations validation : 104990
+Observations test : 104871
+Caracteristiques encodees : 70
+
+Seuil MSE : 0.0352576726
+Calibration : 95e percentile des normaux de validation
+
+TN : 96533
+FP : 4974
+FN : 158
+TP : 3206
+
+PERFORMANCES
+Accuracy : 0.951064
+Precision : 0.391932
+Recall : 0.953032
+F1-score : 0.555440
+Specificity : 0.950998
+Balanced Accuracy : 0.952015
+ROC-AUC : 0.985124
+Average Precision : 0.574567
+FPR : 0.049002
+FNR : 0.046968
+
+AUDIT
+Controles executes : 61
+Controles valides : 61
+Controles echoues : 0
+
+Statut : VALIDATION REUSSIE
+
+LIMITES
+Les controles ne demontrent pas l'independance temporelle des sessions.
+Les analyses du test restent descriptives.
+
+===========================================================================

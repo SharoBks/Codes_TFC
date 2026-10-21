@@ -1,0 +1,70 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele_1": "Isolation Forest",
+    "modele_2": "Deep Dense Autoencoder",
+    "verdict": "IDENTIQUE",
+    "dataset_identique": true,
+    "ids_identiques": true,
+    "ordre_identique": true,
+    "etiquettes_identiques": true,
+    "effectifs_classes_identiques": true,
+    "provenance_indices_verifiee": true,
+    "test_commun_verifie": true,
+    "nombre_test_IF": 104871,
+    "nombre_test_DDAE": 104871,
+    "if_dataset_sha256": "7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511",
+    "ddae_dataset_sha256": "7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511",
+    "fichier_ids_IF": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest\\resultats_Isolation_Forest\\artefacts\\matrices_isolation_forest\\ids_test.npy",
+    "fichier_ids_DDAE": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\matrices_communes\\ids_test.npy",
+    "fichier_labels_DDAE": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\matrices_communes\\y_test.npy",
+    "statut_recherche_ids_DDAE": "Candidats de contenu identique",
+    "statut_recherche_labels_DDAE": "Un seul candidat valide",
+    "candidats_ids_DDAE": [
+        "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\matrices_communes\\ids_test.npy",
+        "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\split_commun\\indices_test.npy"
+    ],
+    "candidats_labels_DDAE": [
+        "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\artefacts\\matrices_communes\\y_test.npy"
+    ],
+    "aucun_reentrainement": true,
+    "aucun_recalibrage": true,
+    "artefacts_sources_modifies": false,
+    "controles": [
+        {
+            "Controle": "Datasets sources identiques",
+            "Statut": "OK",
+            "Detail": "Comparaison SHA256"
+        },
+        {
+            "Controle": "Effectif du test identique",
+            "Statut": "OK",
+            "Detail": "IF=104871 ; DDAE=104871"
+        },
+        {
+            "Controle": "Memes identifiants du test",
+            "Statut": "OK",
+            "Detail": "Comparaison des ensembles d'IDs"
+        },
+        {
+            "Controle": "Meme ordre des observations",
+            "Statut": "OK",
+            "Detail": "Comparaison position par position"
+        },
+        {
+            "Controle": "Concordance des etiquettes",
+            "Statut": "OK",
+            "Detail": "Etiquettes comparees apres alignement par ID"
+        },
+        {
+            "Controle": "Effectifs normaux/attaques identiques",
+            "Statut": "OK",
+            "Detail": "Verification des deux populations"
+        },
+        {
+            "Controle": "Provenance des indices positionnels",
+            "Statut": "OK",
+            "Detail": "Verifier dans les cellules de chargement et de partitionnement des deux notebooks"
+        }
+    ],
+    "date_utc": "2026-10-20T04:36:00.430192+00:00"
+}

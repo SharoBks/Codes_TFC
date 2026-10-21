@@ -1,0 +1,29 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "partitionnement": "autonome_par_groupes",
+    "population_entrainement": "train_normal",
+    "observations_entrainement": 474263,
+    "nombre_caracteristiques": 70,
+    "parametres": {
+        "n_estimators": 200,
+        "max_samples": 256,
+        "max_features": 1.0,
+        "bootstrap": false,
+        "contamination": "auto",
+        "n_jobs": -1,
+        "random_state": 42,
+        "verbose": 0
+    },
+    "nombre_arbres": 200,
+    "max_samples_effectif": 256,
+    "duree_entrainement_secondes": 3.411363799998071,
+    "score_orientation": "negative_score_samples",
+    "seuil_calibre": false,
+    "validation_utilisee_pour_fit": false,
+    "test_utilise_pour_fit": false,
+    "hyperparametres_selectionnes_sur_test": false,
+    "sha256_modele": "8ab3b9218ab57d5e90ac2bfb3fae34c37843dec4b4786ad502961547394108b8",
+    "scikit_learn_version": "1.7.2"
+}

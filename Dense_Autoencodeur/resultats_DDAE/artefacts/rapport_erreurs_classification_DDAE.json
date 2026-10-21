@@ -1,0 +1,21 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "observations": 104871,
+    "TN": 96533,
+    "FP": 4974,
+    "FN": 158,
+    "TP": 3206,
+    "total_erreurs": 5132,
+    "taux_erreur_global_pct": 4.89363122312174,
+    "taux_fausses_alertes_pct": 4.900154669136119,
+    "taux_attaques_manquees_pct": 4.696789536266349,
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "modele_modifie": false,
+    "seuil_modifie": false,
+    "analyse": "descriptive_post_evaluation",
+    "optimisation_sur_test": false
+}

@@ -1,0 +1,348 @@
+{
+    "date_utc": "2026-10-19T14:21:25.031227+00:00",
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "evaluation": "test_independant",
+    "taille_train": 490140,
+    "taille_validation": 104990,
+    "taille_test": 104871,
+    "caracteristiques_encodees": 70,
+    "seuil": 0.035257672634652557,
+    "percentile_calibration": 95,
+    "seuil_origine": "validation_normale",
+    "matrice_confusion": {
+        "TN": 96533,
+        "FP": 4974,
+        "FN": 158,
+        "TP": 3206
+    },
+    "metriques": {
+        "Accuracy": 0.9510636877687826,
+        "Precision": 0.39193154034229827,
+        "Recall": 0.9530321046373365,
+        "F1-score": 0.5554400554400555,
+        "Specificity": 0.9509984533086389,
+        "Balanced Accuracy": 0.9520152789729877,
+        "ROC-AUC": 0.9851241171291795,
+        "Average Precision": 0.574567258083349,
+        "FPR": 0.049001546691361184,
+        "FNR": 0.0469678953626635
+    },
+    "nombre_controles": 61,
+    "controles_valides": 61,
+    "controles_echoues": 0,
+    "audit_reussi": true,
+    "limites": [
+        "L'audit ne prouve pas l'independance temporelle des sessions reseau.",
+        "L'absence de chevauchement des signatures ne garantit pas l'absence de toute dependance.",
+        "Les analyses descriptives sur le test ne doivent pas guider une nouvelle optimisation."
+    ],
+    "controles": [
+        {
+            "Controle": "Variables indispensables disponibles",
+            "Statut": "VALIDE",
+            "Details": "Tous les objets requis sont presents."
+        },
+        {
+            "Controle": "PROTOCOL_VALIDATED",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "CLEAN_AUDIT_PASSED",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "TRAINING_COMPLETED",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "CALIBRATION_COMPLETED",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "TEST_SCORES_READY",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "CONFUSION_MATRIX_READY",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "METRICS_READY",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Absence de chevauchement des indices",
+            "Statut": "VALIDE",
+            "Details": "Chaque observation appartient a un seul ensemble."
+        },
+        {
+            "Controle": "Couverture complete des observations",
+            "Statut": "VALIDE",
+            "Details": "Les indices couvrent le jeu de donnees."
+        },
+        {
+            "Controle": "Longueur des groupes coherente",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Groupes de signatures disjoints",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Entrainement exclusivement normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Calibration exclusivement normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Indices de train normal corrects",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Indices de validation normale corrects",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Dimensions des matrices identiques",
+            "Statut": "VALIDE",
+            "Details": "70 caracteristiques encodees."
+        },
+        {
+            "Controle": "Effectif train normal coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Effectif validation normale coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Effectif test coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Train sans valeurs non finies",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Validation sans valeurs non finies",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Test sans valeurs non finies",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Scores de validation finis et non negatifs",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Seuil egal au 95e percentile validation",
+            "Statut": "VALIDE",
+            "Details": "Seuil = 0.0352576726; recalcul = 0.0352576726"
+        },
+        {
+            "Controle": "Fichier de calibration present",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Seuil sauvegarde coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Origine de calibration correcte",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Scores de test finis et non negatifs",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Alignement etiquettes et indices du test",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Alignement scores, etiquettes, predictions",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Predictions issues du seuil fixe",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice de confusion coherente",
+            "Statut": "VALIDE",
+            "Details": "TN=96533, FP=4974, FN=158, TP=3206"
+        },
+        {
+            "Controle": "Metrique coherente : Accuracy",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.95106369; cellule 23 = 0.9510636877687826"
+        },
+        {
+            "Controle": "Metrique coherente : Precision",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.39193154; cellule 23 = 0.39193154034229827"
+        },
+        {
+            "Controle": "Metrique coherente : Recall",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.95303210; cellule 23 = 0.9530321046373365"
+        },
+        {
+            "Controle": "Metrique coherente : F1-score",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.55544006; cellule 23 = 0.5554400554400555"
+        },
+        {
+            "Controle": "Metrique coherente : Specificity",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.95099845; cellule 23 = 0.9509984533086389"
+        },
+        {
+            "Controle": "Metrique coherente : Balanced Accuracy",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.95201528; cellule 23 = 0.9520152789729877"
+        },
+        {
+            "Controle": "Metrique coherente : ROC-AUC",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.98512412; cellule 23 = 0.9851241171291795"
+        },
+        {
+            "Controle": "Metrique coherente : Average Precision",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.57456726; cellule 23 = 0.574567258083349"
+        },
+        {
+            "Controle": "Metrique coherente : FPR",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.04900155; cellule 23 = 0.049001546691361184"
+        },
+        {
+            "Controle": "Metrique coherente : FNR",
+            "Statut": "VALIDE",
+            "Details": "Recalcul = 0.04696790; cellule 23 = 0.0469678953626635"
+        },
+        {
+            "Controle": "ROC-AUC coherent avec cellule 25",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Average Precision coherente avec cellule 26",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Fichier present : Modele DDAE retenu",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\modeles\\DDAE_meilleur_modele.keras"
+        },
+        {
+            "Controle": "Fichier present : Scores validation",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\scores\\scores_MSE_validation_normale_DDAE.npy"
+        },
+        {
+            "Controle": "Fichier present : Scores test",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\scores\\scores_MSE_test_DDAE.npy"
+        },
+        {
+            "Controle": "Fichier present : Predictions test",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\scores\\predictions_test_DDAE.npy"
+        },
+        {
+            "Controle": "Fichier present : Matrice de confusion",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\figures\\matrice_confusion_DDAE_test_independant.png"
+        },
+        {
+            "Controle": "Fichier present : Performances globales",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\tableaux\\performances_globales_DDAE.csv"
+        },
+        {
+            "Controle": "Fichier present : Courbe ROC",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\figures\\courbe_ROC_DDAE_test_independant.png"
+        },
+        {
+            "Controle": "Fichier present : Courbe precision-rappel",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\figures\\courbe_precision_rappel_DDAE_test_independant.png"
+        },
+        {
+            "Controle": "Fichier present : Categories d'attaque",
+            "Statut": "VALIDE",
+            "Details": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\tableaux\\performances_categories_attaques_DDAE.csv"
+        },
+        {
+            "Controle": "Scores exportes identiques",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Predictions exportees identiques",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Etiquettes absentes des caracteristiques",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Caracteristiques selectionnees documentees",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Analyse des erreurs",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Analyse des categories",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Analyse latente",
+            "Statut": "VALIDE",
+            "Details": ""
+        }
+    ]
+}

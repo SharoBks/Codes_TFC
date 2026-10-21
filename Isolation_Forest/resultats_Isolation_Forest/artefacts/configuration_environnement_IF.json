@@ -1,0 +1,16 @@
+{
+    "modele": "Isolation Forest",
+    "dataset": "UNSW-NB15",
+    "protocole": "one-class",
+    "comparaison_prevue": "DDAE",
+    "random_state": 42,
+    "python_version": "3.10.21",
+    "numpy_version": "1.26.4",
+    "pandas_version": "2.3.3",
+    "sklearn_version": "1.7.2",
+    "matplotlib_version": "3.10.9",
+    "platforme": "Windows-10-10.0.26300-SP0",
+    "police": "Consolas",
+    "repertoire_projet": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Isolation_Forest",
+    "date_utc": "2026-10-19T14:35:29.890517+00:00"
+}

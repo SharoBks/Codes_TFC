@@ -1,0 +1,16 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "analyse": "descriptive_avant_partitionnement",
+    "variable_cible": "label",
+    "nombre_observations": 700001,
+    "nombre_normaux": 677786,
+    "nombre_attaques": 22215,
+    "proportion_normaux_pct": 96.82643310509556,
+    "proportion_attaques_pct": 3.173566894904436,
+    "rapport_normal_attaque": 30.51028584289894,
+    "donnees_modifiees": false,
+    "pretraitement_effectue": false,
+    "seuil_calcule": false,
+    "modele_entraine": false
+}

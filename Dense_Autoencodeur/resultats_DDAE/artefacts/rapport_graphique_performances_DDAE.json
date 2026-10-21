@@ -1,0 +1,24 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "figure": "performances_globales_DDAE_test_independant",
+    "metriques": {
+        "Accuracy": 0.9510636877687826,
+        "Precision": 0.39193154034229827,
+        "Recall": 0.9530321046373365,
+        "F1-score": 0.5554400554400555,
+        "Specificity": 0.9509984533086389,
+        "Balanced Accuracy": 0.9520152789729877
+    },
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "police": "Consolas",
+    "palette": "viridis",
+    "axe_y": "pourcentage_0_100",
+    "modele_modifie": false,
+    "pretraitement_modifie": false,
+    "seuil_modifie": false,
+    "aucune_optimisation_sur_test": true
+}

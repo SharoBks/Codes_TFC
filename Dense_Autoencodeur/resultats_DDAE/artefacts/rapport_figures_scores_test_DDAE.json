@@ -1,0 +1,20 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "ensemble": "test_independant",
+    "score": "MSE_individuel",
+    "normal_count": 101507,
+    "attack_count": 3364,
+    "seuil": 0.035257672634652557,
+    "seuil_origine": "validation_normale",
+    "percentile_calibration": 95,
+    "figure_complete": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\figures\\distribution_scores_normal_attaques_DDAE",
+    "figure_agrandie": "C:\\Users\\Taka\\Documents\\CODES_TFC_1\\Dense_Autoencodeur\\resultats_DDAE\\figures\\zoom_scores_normal_attaques_DDAE",
+    "axe_figure_complete": "log10(1+MSE)",
+    "axe_figure_agrandie": "MSE",
+    "normal_hors_champ_zoom": 383,
+    "attaques_hors_champ_zoom": 623,
+    "seuil_modifie": false,
+    "modele_modifie": false,
+    "pretraitement_modifie": false
+}

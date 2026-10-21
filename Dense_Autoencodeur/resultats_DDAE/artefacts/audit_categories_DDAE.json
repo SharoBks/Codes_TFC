@@ -1,0 +1,12 @@
+{
+    "dataset": "UNSW-NB15",
+    "nombre_observations": 700001,
+    "nombre_categories": 10,
+    "nombre_attaques": 22215,
+    "normaux_categorie_inattendue": 677786,
+    "attaques_categorie_normal": 0,
+    "attaques_categorie_non_renseignee": 0,
+    "incoherences_binaires": 677786,
+    "analyse": "descriptive_avant_separation",
+    "transformations_appliquees": false
+}

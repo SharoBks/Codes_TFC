@@ -1,0 +1,8 @@
+               precision    recall  f1-score   support
+
+Trafic normal     0.9984    0.9510    0.9741    101507
+      Attaque     0.3919    0.9530    0.5554      3364
+
+     accuracy                         0.9511    104871
+    macro avg     0.6951    0.9520    0.7648    104871
+ weighted avg     0.9789    0.9511    0.9607    104871

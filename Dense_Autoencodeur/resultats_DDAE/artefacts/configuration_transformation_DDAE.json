@@ -1,0 +1,18 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "pretraitement": "commun_DDAE_IsolationForest",
+    "ajustement_pretraitement": "train_normal_uniquement",
+    "methode_application": "transform",
+    "nombre_caracteristiques": 70,
+    "train_normal": 474263,
+    "validation_normale": 102016,
+    "test_independant": 104871,
+    "nombre_normaux_test": 101507,
+    "nombre_attaques_test": 3364,
+    "format_matrices": "scipy_sparse_CSR_float32",
+    "normalisation_refaite_sur_test": false,
+    "encodage_refait_sur_test": false,
+    "test_utilise_pour_entrainement": false,
+    "test_utilise_pour_calibration": false
+}

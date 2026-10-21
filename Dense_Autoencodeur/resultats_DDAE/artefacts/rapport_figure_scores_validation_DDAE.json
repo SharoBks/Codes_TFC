@@ -1,0 +1,16 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "figure": "distribution_scores_MSE_validation_DDAE",
+    "population": "validation_normale",
+    "nombre_observations": 102016,
+    "score": "MSE_individuel",
+    "seuil": 0.035257672634652557,
+    "percentile_calibration": 95,
+    "borne_superieure_affichage": 0.129027609924087,
+    "observations_hors_champ": 1016,
+    "mise_a_echelle": "lineaire",
+    "test_utilise": false,
+    "seuil_modifie": false,
+    "figure_normal_attaque": false
+}

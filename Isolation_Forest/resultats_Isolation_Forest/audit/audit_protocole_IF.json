@@ -1,0 +1,253 @@
+{
+    "dataset": "UNSW-NB15_1.csv",
+    "modele": "Isolation Forest",
+    "protocole": "one-class",
+    "partitionnement": "autonome_par_groupes",
+    "preprocesseur": "autonome_train_normal",
+    "nombre_train_normal": 474263,
+    "nombre_validation_normale": 102016,
+    "nombre_test": 104871,
+    "nombre_caracteristiques": 70,
+    "controles_total": 46,
+    "controles_valides": 46,
+    "controles_echoues": 0,
+    "audit_reussi": true,
+    "test_commun_DDAE_verifie": false,
+    "limites": [
+        "Le partitionnement est autonome et ne prouve pas l'identite du test avec celui du DDAE.",
+        "La disjonction des signatures ne garantit pas l'independance temporelle des sessions.",
+        "L'audit confirme la coherence interne mais ne prouve pas l'absence de toute fuite."
+    ],
+    "controles": [
+        {
+            "Controle": "Format CSR — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Type float32 — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Valeurs finies — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice non vide — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Format CSR — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Type float32 — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Valeurs finies — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice non vide — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Format CSR — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Type float32 — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Valeurs finies — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice non vide — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Nombre de caracteristiques identique",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Train normal : effectif coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Validation normale : effectif coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Test : effectif coherent",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Indices uniques entre partitions",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Couverture complete du dataset",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Groupes disjoints entre les ensembles",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Signatures brutes disjointes",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Train : trafic normal uniquement",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Validation de calibration : normal uniquement",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Indices du train normal exacts",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Indices de validation normale exacts",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Etiquettes du test alignees",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Deux classes presentes dans le test",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "43 caracteristiques brutes selectionnees",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "40 variables numeriques",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "3 variables categorielles",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Cibles absentes des caracteristiques",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Ordre des caracteristiques conserve",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Preprocesseur ajuste",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Preprocesseur sauvegarde",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Rapport de pretraitement sauvegarde",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Fichier matrice present — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice sauvegardee identique — Train normal",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Fichier matrice present — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice sauvegardee identique — Validation normale",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Fichier matrice present — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Matrice sauvegardee identique — Test independant",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Identifiants sauvegardes — train",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Alignement identifiants — train",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Identifiants sauvegardes — validation",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Alignement identifiants — validation",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Identifiants sauvegardes — test",
+            "Statut": "VALIDE",
+            "Details": ""
+        },
+        {
+            "Controle": "Alignement identifiants — test",
+            "Statut": "VALIDE",
+            "Details": ""
+        }
+    ]
+}

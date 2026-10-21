@@ -1,0 +1,18 @@
+{
+    "dataset": "UNSW-NB15",
+    "modele": "Deep Dense Autoencoder",
+    "protocole": "one-class",
+    "score": "MSE_individuel",
+    "orientation": "higher_is_more_anomalous",
+    "population_calibration": "validation_normale",
+    "nombre_observations_calibration": 102016,
+    "percentile": 95,
+    "quantile_method": "linear",
+    "seuil": 0.035257672634652557,
+    "operateur_decision": ">",
+    "taux_depassement_validation_pct": 5.000196047678795,
+    "nombre_depassements_validation": 5101,
+    "jeu_test_utilise": false,
+    "seuil_selectionne_par_f1_test": false,
+    "politique_commune_isolation_forest": true
+}

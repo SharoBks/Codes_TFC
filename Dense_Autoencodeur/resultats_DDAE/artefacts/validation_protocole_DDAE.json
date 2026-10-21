@@ -1,0 +1,23 @@
+{
+    "modele": "Deep Dense Autoencoder",
+    "dataset": "UNSW-NB15",
+    "protocole": "one-class",
+    "decoupage": "GroupShuffleSplit",
+    "total_observations": 700001,
+    "caracteristiques_finales": 70,
+    "indices_disjoints": true,
+    "groupes_disjoints": true,
+    "signatures_nettoyees_disjointes": true,
+    "train_normal_uniquement": true,
+    "validation_normale_pour_calibration": true,
+    "calibration_percentile": 95,
+    "test_reserve": true,
+    "independance_sessions_demontree": false,
+    "pretraitement_fit_train_normal": "Configuration des cellules 9-10 ; a verifier par revue du code",
+    "audit_apres_nettoyage": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "controle_structurel_valide": true
+}
