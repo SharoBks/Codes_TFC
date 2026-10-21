@@ -117,7 +117,7 @@ Voir [`Dense_Autoencodeur/environnement_logiciel.txt`](Dense_Autoencodeur/enviro
 
 **Exemple de préparation sous Windows / PowerShell :**
 ```powershell
-git clone https://github.com/SharoBks/Codes_TFC_Sharon.git
+git clone https://github.com/SharoBks/Codes_TFC.git
 cd Codes_TFC_Sharon
 py -3.10 -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -198,6 +198,6 @@ Le rapport de synthèse IF et le rapport de **comparabilité** ont des objectifs
 
 Pour référencer ce projet dans un travail académique :
 
-> MUKANYA BUKASA, S., *Détection d'anomalies dans le trafic réseau par autoencodeur profond dans un cadre one-class : apprentissage du trafic normal et évaluation sur un jeu de données public d'intrusion*, Travail de Fin de Cycle, Université de Kinshasa, 2025–2026. Dépôt de code : https://github.com/SharoBks/Codes_TFC_Sharon
+> MUKANYA BUKASA, S., *Détection d'anomalies dans le trafic réseau par autoencodeur profond dans un cadre one-class : apprentissage du trafic normal et évaluation sur un jeu de données public d'intrusion*, Travail de Fin de Cycle, Université de Kinshasa, 2025–2026. Dépôt de code : https://github.com/SharoBks/Codes_TFC
 
 **Remarque :** les modèles sérialisés (notamment `.joblib` ou `.h5` / `.keras`) doivent être chargés uniquement dans un environnement de confiance.
